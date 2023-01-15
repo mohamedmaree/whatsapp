@@ -10,7 +10,7 @@ class Whatsapp {
           'messaging_product' => 'whatsapp',
           'to'                => $to_phone,
           'type'              => 'Text',
-          'text'              => json_encode(['body' => $message]);
+          'text'              => json_encode(['body' => $message])
         ];
 
         $url = 'https://graph.facebook.com/v15.0/'.config('whatsapp.phone_number_id').'/messages';
