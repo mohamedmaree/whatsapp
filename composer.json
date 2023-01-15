@@ -1,0 +1,26 @@
+{
+    "name": "maree/whatsapp",
+    "description": "package to send whatsapp messages using whatsapp api direct",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohamed maree",
+            "email": "m7mdmaree26@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Maree\\Whatsapp\\" : "src/",
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maree\\Whatsapp\\WhatsappServiceProvider"
+            ]
+        }
+    } 
+}
