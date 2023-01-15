@@ -11,7 +11,7 @@ return [
     */
 
     "access_token"   => "" ,
-    "phone_number_id" => "",
+    "phone_number_id" => "", //Phone number identifier
 
 
 
