@@ -36,7 +36,7 @@ php artisan vendor:publish --provider="Maree\Whatsapp\WhatsappServiceProvider" -
 then change your whatsapp config from config/whatsapp.php file
 ```php
     "access_token"   => "" ,
-    "phone_number_id" => "",
+    "phone_number_id" => "", //Phone number identifier
 ```
 ## Usage
 
