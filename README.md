@@ -33,7 +33,7 @@ Publish your whatsapp config file with
 ```bash
 php artisan vendor:publish --provider="Maree\Whatsapp\WhatsappServiceProvider" --tag="whatsapp"
 ```
-then change your oto config from config/oto.php file
+then change your whatsapp config from config/whatsapp.php file
 ```php
     "access_token"   => "" ,
     "phone_number_id" => "",
